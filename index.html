@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Document</title>
+        <link rel='stylesheet' href='style.css'>
+        <script src='script.js' defer></script>
+        <!-- <link rel='stylesheet' href='utility.css'> -->
+        <!-- <script src='script2.js' defer></script> -->
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="music-player">
+                <nav>
+                    <div class="circle">
+                        <span>
+                            < </span>
+                    </div>
+                    <div class="circle">
+                        <span>=</span>
+                    </div>
+                </nav>
+                <img src="Asset/character.png" class="song-img">
+                <h1>12 Bande 😈</h1>
+                <p>Artist : Virender Brar</p>
+                <audio controls id="song" class="audioEle">
+                    <source src="Asset/song.mp3.mp3" type="audio/mpeg">
+                </audio>
+                <input type="range" name="" value="0" id="progress">
+                <div class="controls">
+                    <div> <span class="skip1"> << </span>
+                    </div>
+                    <div> <span class="play"> ^ </span> </div>
+                    <div> <span class="skip2"> >> </span> </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
